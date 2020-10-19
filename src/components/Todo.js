@@ -12,7 +12,9 @@ function Todo() {
       key={index}
     >
       <div key={todo.id} onClick={() => completeTodo(todo.id)}></div>
-      <div className="icons"></div>
+      <div className="icons">
+        <RiCloseCircleLine />
+      </div>
     </div>
   ));
 }
